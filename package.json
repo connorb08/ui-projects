@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "packageManager": "yarn@4.6.0",
   "scripts": {
     "build": "remix vite:build",
     "deploy": "wrangler deploy",
@@ -42,6 +43,6 @@
     "wrangler": "3.84.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "v22.13.1"
   }
 }

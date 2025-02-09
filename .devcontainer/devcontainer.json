@@ -1,0 +1,21 @@
+{
+    "name": "ui-projects",
+    "image": "mcr.microsoft.com/devcontainers/base:alpine",
+    "runArgs": ["--env-file", ".devcontainer/.env"],
+    "postCreateCommand": "cat .devcontainer/.bashrc >> ~/.bashrc",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "v22.13.1"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "mrmlnc.vscode-scss",
+                "GitHub.vscode-pull-request-github"
+            ]
+        }
+    }
+}
