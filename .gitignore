@@ -4,3 +4,11 @@ node_modules
 /build
 .env
 .dev.vars
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
